@@ -21,6 +21,12 @@ namespace v0512
         {
             int a = 1;
             MessageBox.Show("" + (10 / a));
+            button.Visible = false;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
